@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  height: 140px;
+  width: 100px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px lightblue ;
+  
+}
+
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+}
