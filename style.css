@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
   width: 100vw;
   height: 100vh;
@@ -12,6 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Orbitron", sans-serif;
 }
 
 div {
@@ -24,17 +27,21 @@ div {
   justify-content: center;
   align-items: center;
   box-shadow: 10px 10px lightblue ;
-  
 }
 
 p {
   text-align: center;
-  font-family: "Roboto", sans-serif;
 }
 
 h1 {
   font-size: 50px;
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-family: "Orbitron", sans-serif;
 }
+
+#date {
+  height: 30px;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
